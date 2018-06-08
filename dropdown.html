@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- bootstrap -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+
+        <title>Dropdown</title>
+    </head>
+
+    <body>
+
+        <div class="container">
+            <div class="row mt-3">
+                <div class="col">
+                    <div class="dropdown">
+                        <button class="btn btn-primary dropdown-toggle" id="categorias" data-toggle="dropdown">Categorías</button>
+                        <div class="dropdown-menu" aria-labelledby="categorias">
+                            <h6 class="dropdown-header">Categorías</h6>
+                            <a href="" class="dropdown-item">HTML</a>
+                            <a href="" class="dropdown-item">CSS</a>
+                            <a href="" class="dropdown-item">Javascript</a>
+                            <div class="dropdown-divider"></div>
+                            <a href="" class="dropdown-item">PHP</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col">
+                    <div class="btn-group">
+                        <button class="btn btn-primary">Categorías</button>
+                        <button class="btn btn-primary dropdown-toggle dropdown-toggle-split" id="categorias4" data-toggle="dropdown">
+                            <span class="sr-only">Menu</span>
+                        </button>
+
+                        <div class="dropdown-menu" aria-labelledby="categorias4">
+                            <h6 class="dropdown-header">Categorías</h6>
+                            <a href="" class="dropdown-item">HTML</a>
+                            <a href="" class="dropdown-item">CSS</a>
+                            <a href="" class="dropdown-item">Javascript</a>
+                            <div class="dropdown-divider"></div>
+                            <a href="" class="dropdown-item">PHP</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col">
+                    <div class="btn-group">
+                        <button class="btn btn-primary dropdown-toggle" id="categorias2" data-toggle="dropdown">Categorías</button>
+                        <div class="dropdown-menu" aria-labelledby="categorias2">
+                            <h6 class="dropdown-header">Categorías</h6>
+                            <a href="" class="dropdown-item">HTML</a>
+                            <a href="" class="dropdown-item">CSS</a>
+                            <a href="" class="dropdown-item">Javascript</a>
+                            <div class="dropdown-divider"></div>
+                            <a href="" class="dropdown-item">PHP</a>
+                        </div>
+                    </div>
+                    <div class="btn-group dropup">
+                        <button class="btn btn-success dropdown-toggle" id="categorias3" data-toggle="dropdown">Categorías</button>
+                        <div class="dropdown-menu" aria-labelledby="categorias3">
+                            <h6 class="dropdown-header">Categorías</h6>
+                            <a href="" class="dropdown-item">HTML</a>
+                            <a href="" class="dropdown-item">CSS</a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- scripts -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/popper.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+
+</html>
