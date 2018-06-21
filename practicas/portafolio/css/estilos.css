@@ -27,13 +27,9 @@ header .logo h2 {
     text-transform: uppercase;
 }
 
-header .logo .icono {
-    color: #bfbfbf;
-}
+header .logo .icono { color: #bfbfbf; }
 
-header .logo p {
-    color: #777;
-}
+header .logo p { color: #777777; }
 
 /* Menu */
 header .menu {
