@@ -87,8 +87,8 @@ header .menu .c-3:hover {background: #002d44;}
     display: inline-block;
     background: #3da5e2;
 }
-.portafolio .galeria .contenedor-imagen:hover {
-    opacity: .7;
+.portafolio .galeria .contenedor-imagen:hover img {
+    opacity: .3;
 }
 
 .portafolio .modal-dialog {
