@@ -4,13 +4,9 @@ body {
     font-size: 16px;
 }
 
-a {
-    color: #1176b6;
-}
+a { color: #1176b6; }
 
-a:hover {
-    text-decoration: underline;
-}
+a:hover { text-decoration: underline; }
 
 
 /* Header */
@@ -23,9 +19,7 @@ header {
 
 /*logo*/
 
-header .logo img {
-    height: 22px;
-}
+header .logo img { height: 22px; }
 
 
 /*buscar*/
@@ -81,6 +75,7 @@ header .menu .imagen {
     display: inline-block;
     width: 22px;
     height: 22px;
+    overflow: hidden;
 }
 
 header .menu .imagen img {
@@ -417,7 +412,7 @@ main footer .copyright {
 
 @media screen and (max-width: 575px) {
     header .menu {
-        padding: 0 15px 15px 15px;
+        padding: 15px 15px 0 15px;
     }
     main .contenido-principal .publicar .foto a {
         width: 40px;
