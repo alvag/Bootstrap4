@@ -104,7 +104,7 @@ main .barra-lateral-izquierda nav {
 
 main .barra-lateral-izquierda nav a {
     display: block;
-    padding: 3px 3px;
+    padding: 3px;
     font-family: 'Roboto', sans-serif;
     color: #3d3c3c;
 }
