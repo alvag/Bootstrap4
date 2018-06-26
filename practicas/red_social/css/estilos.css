@@ -342,7 +342,6 @@ main footer .copyright {
     margin-top: 10px;
 }
 
-
 /*mediaqueries*/
 
 @media screen and (max-width: 767px) {
@@ -388,7 +387,7 @@ main footer .copyright {
         height: 100vh;
         transform: translateX(-100%);
         transition: all .3s ease;
-        /*overflow: scroll;*/
+        /* overflow: scroll; */
     }
     main .barra-lateral-izquierda.active {
         transform: translateX(0%);
